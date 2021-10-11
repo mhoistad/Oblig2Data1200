@@ -1,16 +1,57 @@
+header {
+    height: 55vh;
+    background-image: url("../project/assets/img/studentsbg.png");
+    background-image: fixed;
+    background-position: center top;
+    background-size: cover;
+}
 
-#intro-container {
+header > div {
     background-color: #c5192d;
     margin: auto;
     width: auto;
     padding: 1rem;
+    position: relative;
+    top: 4rem;
 }
 
-/*It sets a box shadow where the blur-radius will be 1px.•
-The box shadow’s color is “darkgrey”•The offset-x, offset-y and spread-radius values will be set to 0•
-The background color of this element is “whitesmoke”*/
+h1 { 
+    font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+h2 { 
+    font-size: 2.2rem;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+h3 { 
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+p {
+    line-height: 1.5;
+    word-wrap: break-word;
+   width: 70ch;
+
+}
+
+body { 
+    font-size: 1.2rem;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    
+}
+
+
+head { 
+    font-size: 14px;
+    
+}
+
 main {
-    box-shadow: 0px 0px 1px 0px darkgrey;
-    background-color: whitesmoke;
-}
+    font-family: "Lato", sans-serif;
 
+}
