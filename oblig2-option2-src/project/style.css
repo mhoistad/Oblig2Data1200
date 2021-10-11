@@ -68,3 +68,11 @@ main {
     list-style-type: none;
     content: "\1F64C";
 }
+#intro-container > div > ul > li:nth-child(2):before {
+    list-style-type: none;
+    content: "\1F3EB";
+}
+#intro-container > div > ul > li:nth-child(3):before {
+    list-style-type: none;
+    content: "\1F4DA";
+}
