@@ -76,3 +76,14 @@ main {
 #intro-container > div > ul {
     list-style-type: none;
 }
+
+@media screen and (min-width: 600 px) {
+    head {
+        font-size: 16px;
+
+    }
+}
+    
+    
+
+
