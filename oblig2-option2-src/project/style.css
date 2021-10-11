@@ -63,9 +63,8 @@ main {
     margin: auto;
     width: auto;
     padding: 1rem;
-    list-style-type: none;
 }
-#intro-container > div > ul ::before {
-    list-style: none;
+#intro-container > div > ul > li:nth-child(1):before {
+    list-style-type: none;
     content: "\1F64C";
 }
