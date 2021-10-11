@@ -2,6 +2,7 @@
 #intro-container {
     background-color: #c5192d;
     margin: auto;
+    width: auto;
     padding: 1rem;
 }
 
