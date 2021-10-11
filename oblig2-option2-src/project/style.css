@@ -53,6 +53,8 @@ head {
 
 main {
     font-family: "Lato", sans-serif;
+    box-shadow: 0px 0px 1px 0px darkgrey;
+    background-color: whitesmoke;
 
 }
 
