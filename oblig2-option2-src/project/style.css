@@ -65,6 +65,7 @@ main {
     padding: 1rem;
     list-style-type: none;
 }
-#intro-container > div > ul {
-    list-style-type: none;
+#intro-container > div > ul ::before {
+    list-style: none;
+    content: "\1F64C";
 }
