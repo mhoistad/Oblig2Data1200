@@ -55,3 +55,9 @@ main {
     font-family: "Lato", sans-serif;
 
 }
+
+#intro-container {
+    background-color: #c5192d;
+    margin: auto;
+    padding: 1rem;
+}
