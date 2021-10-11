@@ -61,4 +61,5 @@ main {
     margin: auto;
     width: auto;
     padding: 1rem;
+    list-style-type: none;
 }
