@@ -2,7 +2,7 @@
 #intro-container {
     background-color: #c5192d;
     margin: auto;
-    
+    padding: 1rem;
 }
 
 /*It sets a box shadow where the blur-radius will be 1px.•
