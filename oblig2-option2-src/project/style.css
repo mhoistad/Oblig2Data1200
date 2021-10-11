@@ -1,3 +1,42 @@
+/* Første del, under 600px */
+
+/*Chris*/
+body { 
+    font-size: 1.2rem;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+main {
+    font-family: "Lato", sans-serif;
+    box-shadow: 0px 0px 1px 0px darkgrey;
+    background-color: whitesmoke;
+}
+
+head {  /* Ikke p?? */
+    font-size: 14px;
+}
+
+h1 { 
+    font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 { 
+    font-size: 2.2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+h3 { 
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    line-height: 1.5;
+    word-wrap: break-word;
+   width: 70ch;
+}
+
+/*Magnus*/
 header {
     height: 55vh;
     background-image: url("../project/assets/img/studentsbg.png");
@@ -14,50 +53,7 @@ header > div {
     position: relative;
     top: 4rem;
 }
-
-h1 { 
-    font-size: 4rem;
-    font-family: "Montserrat", sans-serif;
-    
-}
-
-h2 { 
-    font-size: 2.2rem;
-    font-family: "Montserrat", sans-serif;
-    
-}
-
-h3 { 
-    font-family: "Montserrat", sans-serif;
-    
-}
-
-p {
-    line-height: 1.5;
-    word-wrap: break-word;
-   width: 70ch;
-
-}
-
-body { 
-    font-size: 1.2rem;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    
-}
-
-
-head { 
-    font-size: 14px;
-    
-}
-
-main {
-    font-family: "Lato", sans-serif;
-    box-shadow: 0px 0px 1px 0px darkgrey;
-    background-color: whitesmoke;
-
-}
-
+/*Haris*/
 #intro-container {
     background-color: #c5192d;
     margin: auto;
@@ -73,6 +69,28 @@ main {
 #intro-container > div > ul > li:nth-child(3):before {
     content: "\1F4DA";
 }
+
 #intro-container > div > ul {
     list-style-type: none;
 }
+/* Slutt av første del, under 600px */
+
+
+/* Andre del, 600-960px */
+
+/*Slutt av andre del, 600-960px */
+
+
+/* Tredje del, over 960 px */
+@media only screen and (min-width: 960px) {
+    p {
+        font-size: 24px;
+    }
+    header {
+        height: 65vh;
+    }
+    header>div, main, footer {
+        width: 70%;
+    }
+}
+/*Slutt av tredje del, over 960 px */
