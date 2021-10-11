@@ -1,1 +1,40 @@
+h1 { 
+    font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+    
+}
 
+h2 { 
+    font-size: 2.2rem;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+h3 { 
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+p {
+    line-height: 1.5;
+    word-wrap: break-word;
+   width: 70ch;
+
+}
+
+body { 
+    font-size: 1.2rem;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    
+}
+
+
+head { 
+    font-size: 14px;
+    
+}
+
+main {
+    font-family: "Lato", sans-serif;
+
+}
