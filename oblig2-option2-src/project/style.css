@@ -1,3 +1,17 @@
+header {
+    height: 55vh;
+    background-image: url("../project/assets/img/studentsbg.png");
+    background-image: fixed;
+    background-position: center top;
+    background-size: cover;
+}
+
+header > div {
+    background-color: #c5192d;
+    position: relative;
+    top: 4rem;
+}
+
 h1 { 
     font-size: 4rem;
     font-family: "Montserrat", sans-serif;
