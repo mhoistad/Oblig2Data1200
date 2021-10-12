@@ -91,6 +91,7 @@ header > div {
     
     article > div > {
         float: left;
+        width: 45%;
 
     }
 
