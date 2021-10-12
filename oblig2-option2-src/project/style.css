@@ -89,7 +89,7 @@ header > div {
     This is, it spans 50% from the left to the right.
     */
     
-    article{
+    article > div > ul > li:nth-child(1):before {
         float: left;
         width: 45%;
 
