@@ -81,7 +81,27 @@ header > div {
 
 /* Andre del, 600-960px */
 @media only screen and (min-width: 600, max-width: 959px) {
-    
+
+    /*chris 
+    •Each article will be displayed in a 2-column layout
+    •Each column will be 45% wide and there will be a 10% gap between the two columns(Figure 3). 
+    HINT: inline elements add a space between them.
+    */
+    article {
+
+            float: left;
+            width: 50%;
+          }
+                    
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+    }
+
+
+
 }
 
 /*Slutt av andre del, 600-960px */
