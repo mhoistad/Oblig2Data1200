@@ -6,6 +6,7 @@ body {
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
+/* Ingrid*/ 
 main {
     font-family: "Lato", sans-serif;
     box-shadow: 0px 0px 1px 0px darkgrey;
@@ -95,11 +96,20 @@ header > div {
 
     }
 
+•The 3 main boxes (“Education for all”, main and footer) 
+will now take only 85 percent of the viewport width (check mock-up)*/
 
-    
-            
-          
+    p { 
+        font-size: 16px;   
     }
+
+    header {
+        height: 65vh;
+    }
+    header>div, main, footer {
+        width: 85%;
+    }
+
 
 
 
