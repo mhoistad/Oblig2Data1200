@@ -78,7 +78,7 @@ header > div {
 
 
 /* Andre del, 600-960px */
-@media only screen and (min-width: 600, max-width: 959px) {
+@media only screen and (min-width: 600, max-width: 960px) {
 
     /*chris 
     •Each article will be displayed in a 2-column layout
@@ -89,13 +89,7 @@ header > div {
 
             float: left;
             width: 50%;
-          }
-                    
-          .row:after {
-            content: "";
-            display: table;
-            clear: both;
-          }
+          
     }
 
 
@@ -106,7 +100,7 @@ header > div {
 
 
 /* Tredje del, over 960 px */
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 961px) {
     p {
         font-size: 24px;
     }
