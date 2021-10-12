@@ -78,7 +78,7 @@ header > div {
 
 
 /* Andre del, 600-960px */
-@media only screen and (min-width: 600, max-width: 960px) {
+@media only screen and (min-width: 600px , 960px) {
 
     /*chris 
     •Each article will be displayed in a 2-column layout
@@ -88,16 +88,21 @@ header > div {
     #intro-containerThe red background only covers 50% of the article container(Figure 4). 
     This is, it spans 50% from the left to the right.
     */
-    #intro-container{
+    
+    article > div > {
+        float: left;
 
-            float: left;
-            width: 60%;
+    }
+
+
+    
+            
           
     }
 
 
 
-}
+
 
 /*Slutt av andre del, 600-960px */
 
