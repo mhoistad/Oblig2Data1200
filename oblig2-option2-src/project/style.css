@@ -1,6 +1,7 @@
 /* Første del, under 600px */
 
-/*Chris*/
+@media only screen and (max-width: 599px) {
+/*Chris general  < 600*/
 body { 
     font-size: 1.2rem;
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
@@ -73,10 +74,15 @@ header > div {
 #intro-container > div > ul {
     list-style-type: none;
 }
+
+}
 /* Slutt av første del, under 600px */
 
 
 /* Andre del, 600-960px */
+@media only screen and (min-width: 600, max-width: 959px) {
+    
+}
 
 /*Slutt av andre del, 600-960px */
 
