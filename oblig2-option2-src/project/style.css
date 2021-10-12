@@ -85,7 +85,7 @@ header > div {
     •Each column will be 45% wide and there will be a 10% gap between the two columns(Figure 3). 
     HINT: inline elements add a space between them.
     */
-    article {
+    article>div {
 
             float: left;
             width: 50%;
