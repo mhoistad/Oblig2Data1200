@@ -96,9 +96,6 @@ header > div {
 
     }
 
-•The 3 main boxes (“Education for all”, main and footer) 
-will now take only 85 percent of the viewport width (check mock-up)*/
-
     p { 
         font-size: 16px;   
     }
@@ -109,11 +106,6 @@ will now take only 85 percent of the viewport width (check mock-up)*/
     header>div, main, footer {
         width: 85%;
     }
-
-
-
-
-
 
 /*Slutt av andre del, 600-960px */
 
@@ -129,5 +121,6 @@ will now take only 85 percent of the viewport width (check mock-up)*/
     header>div, main, footer {
         width: 70%;
     }
+}
 }
 /*Slutt av tredje del, over 960 px */
