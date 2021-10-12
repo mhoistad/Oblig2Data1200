@@ -89,7 +89,7 @@ header > div {
     This is, it spans 50% from the left to the right.
     */
     
-    article > div > {
+    article{
         float: left;
         width: 45%;
 
