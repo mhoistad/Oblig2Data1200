@@ -132,19 +132,22 @@ header > div {
 @media only screen and (min-width: 961px) {
     p {
         font-size: 24px;
+
     }
     header {
         height: 65vh;
+
     }
     header>div, main, footer {
         width: 70%;
+
     }
     #intro-container {
         float: left;
         width: 45%;
 
     }
-    #intro-container > div > ul > li {
+    #intro-container img > div > ul > li  {
         float: right;
         width: 45%;
 
