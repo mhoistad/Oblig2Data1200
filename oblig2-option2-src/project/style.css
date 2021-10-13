@@ -142,12 +142,12 @@ header > div {
         width: 70%;
 
     }
-    
-    #intro-container > div > ul > li  {
-        float: right;
+    #intro-container {
+        float: left;
         width: 45%;
 
     }
+    
 }
 
 /*Slutt av tredje del, over 960 px */
