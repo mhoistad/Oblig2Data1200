@@ -109,12 +109,7 @@ header > div {
         width: 45%;
 
     }
-    #intro-container > div > ul > li {
-        float: left;
-        width: 45%;
-
-    }
-
+    
     p { 
         font-size: 16px;   
     }
