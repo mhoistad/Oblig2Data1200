@@ -125,22 +125,16 @@ header > div {
 @media only screen and (min-width: 961px) {
     
     
-    #intro-container {
-        width: 45%;
-
-    }
-    #intro-container {
+    #intro-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
         grid-column-gap: 5px;
         grid-row-gap: 0px;
+        width: 45%;
 
     }
-
-    .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 1 / 2 / 2 / 3; } 
-
+    
     article > div > ul {
         float: left;
     
