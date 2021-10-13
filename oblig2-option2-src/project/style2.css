@@ -68,6 +68,7 @@ main>article {
 #intro-container {
 
     background-color: #c5192d;
+    margin: 10rem auto 1rem auto;
 }
 
 #intro-container>div>ul>li:nth-child(1):before {
