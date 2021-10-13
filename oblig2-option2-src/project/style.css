@@ -142,12 +142,8 @@ header > div {
         width: 70%;
 
     }
-    #intro-container {
-        float: left;
-        width: 45%;
-
-    }
-    #intro-container img > div > ul > li  {
+    
+    #intro-container > div > ul > li  {
         float: right;
         width: 45%;
 
