@@ -152,7 +152,7 @@ a {
     #intro-container > div > h2, p {
         width: 45%;
         margin-left: 5%;
-        
+        background-color: #c5192d;
     }
     #intro-container > div > h2 {
         padding-left: 2rem;
