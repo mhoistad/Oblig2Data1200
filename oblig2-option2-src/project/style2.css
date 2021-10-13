@@ -1,3 +1,122 @@
+@media only screen and (min-width: 400px){
+    * {
+        margin: 0px;  /*Ikke i oppgave*/
+        padding: 0px; /*Ikke i oppgave */
+    }
+    
+    body {
+        background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        font-family: lato, sans-serif;
+        font-size: 14px;
+        font-size: 1.2rem;
+    }
+    
+    h1 {
+        font-family: Montserrat, sans-serif;
+        font-size: 4rem;
+    }
+    
+    h2 {
+        font-family: Montserrat, sans-serif;
+        font-size: 2.2rem;
+    }
+    
+    p {
+        width: 70ch;
+        word-wrap: break-word;
+        line-height: 1.5;
+    }
+    
+    /* Header */
+    
+    header {
+        height: 55vh;
+        background-image: url("assets/img/studentsbg.png");
+        background-image: fixed;
+        background-position: center top; 
+        background-size: cover;
+        width: 100%;
+        position: relative;
+    }
+    
+    header > div {
+        color: white;
+        background-color: #c5192d;
+        width: 95%;
+        margin: 0 auto 1rem auto;
+        box-sizing: border-box;
+        padding: 2rem;
+        position: relative;
+        top: 15rem;
+    }
+    
+    /* Main */
+    
+    main>article {
+        box-shadow: 0px 0px 1px 0px darkgray;
+        background-color: whitesmoke;
+        width: 95%;
+        margin: 2rem auto 1rem auto;
+        box-sizing: border-box;
+        padding: 2rem;
+        position: relative;
+        top: 6rem;
+    }
+    
+    /* intro-container */
+    
+    #intro-container {
+    
+        background-color: #c5192d;
+        margin: 10rem auto 1rem auto;
+    }
+    
+    #intro-container>div>ul>li:nth-child(1):before {
+        content: "\1F64C";
+        width: 1rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+    #intro-container>div>ul>li:nth-child(2):before {
+        content: "\1F3EB";
+        width: 1rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+    #intro-container>div>ul>li:nth-child(3):before {
+        content: "\1F4DA";
+        width: 1rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+    
+    img, div>p, footer>p, h1, h2 {
+        width: 100%;
+    }
+    
+    ul {
+        list-style-position: inside;
+    }
+    
+    footer {
+        width: 95%;
+        margin: auto;
+        background-color: #c5192d;
+        color: white;
+        box-sizing: border-box;
+        padding: 2rem;
+        position: relative;
+        top: 4rem;
+    }
+    
+    a {
+        color: white;
+    }
+}
+
 @media only screen and (min-width: 601px) {
 
     article {
