@@ -140,12 +140,10 @@ a {
     .div2 { 
         grid-area: 1 / 2 / 2 / 3; 
     }
-    #intro-container > div > ul {
-
-        
-    }
     #intro-container > div > h2, p {
         width: 45%;
     }
-
+    #intro-container > div {
+        padding: 2rem;
+    }
 }
