@@ -74,7 +74,7 @@ main>article {
 #intro-container {
 
     background-color: #c5192d;
-    margin: 10rem auto 1rem auto;
+    margin: 2rem auto 1rem auto;
 }
 
 #intro-container>div>ul>li:nth-child(1):before {
@@ -178,5 +178,12 @@ a {
     }
 }
 @media only screen and (min-width: 601px) {
+    article {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 1fr;
+        grid-column-gap: 10%;
+        grid-row-gap: 0px;
+        background-color: #c5192d
 
 }
