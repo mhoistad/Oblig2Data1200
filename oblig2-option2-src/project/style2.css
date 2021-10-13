@@ -15,6 +15,7 @@ body {
 h1 {
     font-family: Montserrat, sans-serif;
     font-size: 4rem;
+    text-align: center;
 }
 
 h2 {
@@ -69,6 +70,7 @@ main>article {
 #intro-container {
 
     background-color: #c5192d;
+    margin: 10rem auto 1rem auto;
 }
 
 #intro-container>div>ul>li:nth-child(1):before {

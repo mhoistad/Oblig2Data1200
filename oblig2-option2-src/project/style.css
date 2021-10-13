@@ -22,7 +22,8 @@ h1 {
 h2 { 
     font-size: 2.2rem;
     font-family: "Montserrat", sans-serif;
-}article {article {
+}
+article {article {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
