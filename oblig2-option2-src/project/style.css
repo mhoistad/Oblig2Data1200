@@ -109,7 +109,12 @@ header > div {
         width: 45%;
 
     }
-    
+    #intro-container > div > ul > li {
+        float: left;
+        width: 45%;
+
+    }
+
     p { 
         font-size: 16px;   
     }
@@ -133,6 +138,16 @@ header > div {
     }
     header>div, main, footer {
         width: 70%;
+    }
+    #intro-container {
+        float: left;
+        width: 45%;
+
+    }
+    #intro-container > div > ul > li {
+        float: right;
+        width: 45%;
+
     }
 }
 
