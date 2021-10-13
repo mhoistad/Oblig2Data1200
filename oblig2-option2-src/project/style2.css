@@ -124,28 +124,59 @@ a {
 
 @media only screen and (min-width: 601px) {
 
+    #intro-container > div > p {
+        padding: 2rem;
+        background-color: #c5192d;
+
+    }
+    #intro-container :nth-child(2) {
+        background-color: whitesmoke;
+    }
+    #intro-container {
+
+        background-color: #c5192d;
+        margin: 10rem auto 1rem auto;
+        padding: 0;
+    }
+    #intro-container > div > ul {
+        width: 45%;
+        margin-left: 5%;
+        list-style-type: none;
+        padding-left: 2rem;
+        background-color: whitesmoke;
+        
+    }
+    #intro-container > div > h2, p {
+        width: 45%;
+        margin-right: 5%;
+        
+    }
+    #intro-container > div > h2 {
+        padding-left: 2rem;
+        
+    }
+    p {
+        float: left;
+    }
+    main>article {
+        box-shadow: 0px 0px 1px 0px darkgray;
+        background-color: whitesmoke;
+        width: 95%;
+        margin: 2rem auto 1rem auto;
+        box-sizing: border-box;
+        position: relative;
+        top: 6rem;
+    }
     article {
         display: grid;
         grid-template-columns: 45% 45%;
         grid-template-rows: 1fr;
         grid-column-gap: 10%;
         grid-row-gap: 0px;
-        background-color: #c5192d whitesmoke;
+        background-color: #c5192d
 
     }
-    .div1 { 
-        
-        grid-area: 1 / 1 / 2 / 2; 
-    }
-    .div2 { 
-        grid-area: 1 / 2 / 2 / 3; 
-    }
-    #intro-container > div > ul {
-
-        
-    }
-    #intro-container > div > h2, p {
-        width: 45%;
-    }
+}
+@media only screen and (min-width: 601px) {
 
 }
