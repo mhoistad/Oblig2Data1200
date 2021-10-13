@@ -134,16 +134,7 @@ header > div {
         width: 70%;
 
     }
-    #intro-container {
-        float: left;
-        width: 45%;
-
-    }
-    #intro-container > div > ul > li  {
-        float: right;
-        width: 45%;
-
-    }
+    
 }
 
 /*Slutt av tredje del, over 960 px */
