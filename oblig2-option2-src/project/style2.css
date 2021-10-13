@@ -126,10 +126,15 @@ a {
 
     #intro-container > div > p {
         padding: 2rem;
-        
+
     }
     #intro-container :nth-child(2) {
         background-color: whitesmoke;
+        width: auto;
+
+    }
+    #intro-container :nth-child(1) {
+        width: auto;
 
     }
     #intro-container {
@@ -173,7 +178,28 @@ a {
         grid-template-rows: 1fr;
         grid-column-gap: 10%;
         
-
+    }
+    header {
+        height: 55vh;
+        background-image: url("assets/img/studentsbg.png");
+        background-image: fixed;
+        background-position: center top; 
+        background-size: cover;
+        width: 100%;
+        position: relative;
+    }
+    
+    header > div {
+        color: white;
+        background-color: #c5192d;
+        width: 95%;
+        margin: 0 auto 1rem auto;
+        box-sizing: border-box;
+        padding: 2rem;
+        position: relative;
+        top: 15rem;
+        text-align: center;
+    
     }
 }
 @media only screen and (min-width: 601px) {
