@@ -126,33 +126,33 @@ a {
 
     #intro-container > div > p {
         padding: 2rem;
-        background-color: #c5192d;
-
+        
     }
     #intro-container :nth-child(2) {
         background-color: whitesmoke;
+
     }
     #intro-container {
-
-        background-color: #c5192d;
-        margin: 10rem auto 1rem auto;
         padding: 0;
+        
     }
     #intro-container > div > ul {
         width: 45%;
-        margin-left: 5%;
+        margin-right: 5%;
         list-style-type: none;
         padding-left: 2rem;
-        background-color: whitesmoke;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         
     }
     #intro-container > div > h2, p {
         width: 45%;
-        margin-right: 5%;
+        margin-left: 5%;
         
     }
     #intro-container > div > h2 {
         padding-left: 2rem;
+        padding-top: 2rem;
         
     }
     p {
@@ -172,8 +172,7 @@ a {
         grid-template-columns: 45% 45%;
         grid-template-rows: 1fr;
         grid-column-gap: 10%;
-        grid-row-gap: 0px;
-        background-color: #c5192d
+        
 
     }
 }
