@@ -105,14 +105,15 @@ header > div {
 }
 /*Haris*/
 #intro-container {
-    background-color: #c5192d;article {
+    background-color: #c5192d;
+    article {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
         grid-column-gap: 5px;
         grid-row-gap: 0px;
         width: 45%;
-
+    }
     }
     .div1 { 
         
