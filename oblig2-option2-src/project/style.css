@@ -119,7 +119,7 @@ header > div {
     header>div, main, footer {
         width: 85%;
     }
-
+}
 /*Slutt av andre del, 600-960px */
 
 
@@ -135,5 +135,5 @@ header > div {
         width: 70%;
     }
 }
-}
+
 /*Slutt av tredje del, over 960 px */
