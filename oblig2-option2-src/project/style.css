@@ -22,7 +22,41 @@ h1 {
 h2 { 
     font-size: 2.2rem;
     font-family: "Montserrat", sans-serif;
+}article {article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+    width: 45%;
+
 }
+.div1 { 
+    
+    grid-area: 1 / 1 / 2 / 2; 
+}
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 1 / 3 / 2; }
+.div4 { grid-area: 2 / 2 / 3 / 3; }
+.div5 { grid-area: 3 / 1 / 4 / 2; }
+.div6 { grid-area: 3 / 2 / 4 / 3; }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+    width: 45%;
+
+}
+.div1 { 
+    
+    grid-area: 1 / 1 / 2 / 2; 
+}
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 1 / 3 / 2; }
+.div4 { grid-area: 2 / 2 / 3 / 3; }
+.div5 { grid-area: 3 / 1 / 4 / 2; }
+.div6 { grid-area: 3 / 2 / 4 / 3; }
 
 h3 { 
     font-family: "Montserrat", sans-serif;
@@ -70,7 +104,24 @@ header > div {
 }
 /*Haris*/
 #intro-container {
-    background-color: #c5192d;
+    background-color: #c5192d;article {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 5px;
+        grid-row-gap: 0px;
+        width: 45%;
+
+    }
+    .div1 { 
+        
+        grid-area: 1 / 1 / 2 / 2; 
+    }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+    .div4 { grid-area: 2 / 2 / 3 / 3; }
+    .div5 { grid-area: 3 / 1 / 4 / 2; }
+    .div6 { grid-area: 3 / 2 / 4 / 3; }
     margin: auto;
     width: auto;
     padding: 1rem;
@@ -96,7 +147,24 @@ header > div {
 @media only screen and (min-width: 601px) {
 
     /*chris 
-    •Each article will be displayed in a 2-column layout
+    •Each article will be displaarticle {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 5px;
+        grid-row-gap: 0px;
+        width: 45%;
+
+    }
+    .div1 { 
+        
+        grid-area: 1 / 1 / 2 / 2; 
+    }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+    .div4 { grid-area: 2 / 2 / 3 / 3; }
+    .div5 { grid-area: 3 / 1 / 4 / 2; }
+    .div6 { grid-area: 3 / 2 / 4 / 3; }yed in a 2-column layout
     •Each column will be 45% wide and there will be a 10% gap between the two columns(Figure 3). 
     HINT: inline elements add a space between them.
     •Observe that the image is aligned to the top of the container
