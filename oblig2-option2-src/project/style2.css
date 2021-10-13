@@ -135,7 +135,7 @@ a {
     }
     #intro-container :nth-child(1) {
         width: auto;
-
+        background-color: #c5192d;
     }
     #intro-container {
         padding: 0;
