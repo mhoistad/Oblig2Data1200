@@ -122,11 +122,11 @@ a {
 
     article {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 45% 45%;
         grid-template-rows: 1fr;
-        grid-column-gap: 5px;
+        grid-column-gap: 10%;
         grid-row-gap: 0px;
-        width: 45%;
+        background-color: #c5192d whitesmoke;
 
     }
     .div1 { 
@@ -136,7 +136,12 @@ a {
     .div2 { 
         grid-area: 1 / 2 / 2 / 3; 
     }
-    
-    
+    #intro-container > div > ul {
+
+        
+    }
+    #intro-container > div > h2, p {
+        width: 45%;
+    }
 
 }
