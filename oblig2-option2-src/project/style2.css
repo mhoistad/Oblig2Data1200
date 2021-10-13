@@ -146,7 +146,7 @@ a {
     #intro-container > div {
         padding: 2rem;
     }
-    #intro-container > div :nth-child(2){
+    #intro-container:nth-child(2){
         background-color: #c3cfe2;
     }
 }
