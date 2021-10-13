@@ -144,7 +144,7 @@ a {
         width: 45%;
     }
     #intro-container > div {
-        padding: 2rem;
+        padding: 5rem;
     }
     #intro-container:nth-child(2){
         background-color: #c3cfe2;
