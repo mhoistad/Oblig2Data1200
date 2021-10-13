@@ -109,7 +109,7 @@ header > div {
         width: 45%;
 
     }
-    #intro-container > div > ul {
+    #intro-container > div > ul > li {
         float: right;
         width: 45%;
 
