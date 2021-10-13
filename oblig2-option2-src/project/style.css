@@ -93,7 +93,7 @@ header > div {
 
 
 /* Andre del, 600-960px */
-@media only screen and (max-width: 960px) {
+@media only screen and (min-width: 601px) {
 
     /*chris 
     •Each article will be displayed in a 2-column layout
@@ -104,6 +104,24 @@ header > div {
     This is, it spans 50% from the left to the right.
     */
     
+    article {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 5px;
+        grid-row-gap: 0px;
+        width: 45%;
+
+    }
+    .div1 { 
+        
+        grid-area: 1 / 1 / 2 / 2; 
+    }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+    .div4 { grid-area: 2 / 2 / 3 / 3; }
+    .div5 { grid-area: 3 / 1 / 4 / 2; }
+    .div6 { grid-area: 3 / 2 / 4 / 3; }
     
     
 
@@ -112,7 +130,7 @@ header > div {
     }
     header {
         height: 65vh;
-        width: 45%;
+
     }
     header>div, main, footer {
         width: 85%;
@@ -142,7 +160,7 @@ header > div {
     .div3 { grid-area: 2 / 1 / 3 / 2; }
     .div4 { grid-area: 2 / 2 / 3 / 3; }
     .div5 { grid-area: 3 / 1 / 4 / 2; }
-    .div6 { grid-area: 3 / 2 / 4 / 3; } 
+    .div6 { grid-area: 3 / 2 / 4 / 3; }
     
     article > div > ul {
         float: left;
