@@ -178,12 +178,6 @@ a {
     }
 }
 @media only screen and (min-width: 601px) {
-    article {
-        display: grid;
-        grid-template-columns: 45% 45%;
-        grid-template-rows: 1fr;
-        grid-column-gap: 10%;
-        grid-row-gap: 0px;
-        background-color: #c5192d
+    
 
 }
