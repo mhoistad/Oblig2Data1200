@@ -109,11 +109,7 @@ header > div {
         width: 45%;
 
     }
-    #intro-container > div > ul > li {
-        float: left;
-        width: 45%;
-
-    }
+    
 
     p { 
         font-size: 16px;   
@@ -147,7 +143,11 @@ header > div {
         width: 45%;
 
     }
-    
+    #intro-container > div > ul > li  {
+        float: right;
+        width: 45%;
+
+    }
 }
 
 /*Slutt av tredje del, over 960 px */
