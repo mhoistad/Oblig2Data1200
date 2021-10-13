@@ -154,7 +154,7 @@ a {
         margin-left: 5%;
     }
     #intro-container > div > p {
-        background-color: #c5192d;
+        background-color: #c5192d !important;
     }
     #intro-container > div > h2 {
         padding-left: 2rem;
