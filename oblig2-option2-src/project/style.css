@@ -93,7 +93,7 @@ header > div {
 
 
 /* Andre del, 600-960px */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 960px) {
 
     /*chris 
     •Each article will be displayed in a 2-column layout
@@ -112,6 +112,7 @@ header > div {
     }
     header {
         height: 65vh;
+        width: 45%;
     }
     header>div, main, footer {
         width: 85%;
@@ -122,8 +123,33 @@ header > div {
 
 /* Tredje del, over 960 px */
 @media only screen and (min-width: 961px) {
+    
+    
+    #intro-container {
+        width: 45%;
+
+    }
+    #intro-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 5px;
+        grid-row-gap: 0px;
+
+    }
+
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; } 
+
+    article > div > ul {
+        float: left;
+    
+    }
     p {
         font-size: 24px;
+        width: 100%;
+        word-wrap: break-word;
+
 
     }
     header {
