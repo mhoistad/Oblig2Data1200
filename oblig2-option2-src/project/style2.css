@@ -30,7 +30,7 @@ h2 {
 p {
     width: 70ch;
     line-height: 1.5;
-    margin-bottom:;
+    margin-bottom: 0;
 }
 
 /* Header */
@@ -120,6 +120,7 @@ img, div>p, footer>p, h1, h2 {
 
 ul {
     list-style-position: inside;
+    list-style-type: none;
 }
 
 footer {
