@@ -198,6 +198,7 @@ a {
     #intro-container > div > h2 {
         padding-left: 2rem;
         padding-top: 2rem;
+        padding-bottom: 0;
         
     }
     p {
