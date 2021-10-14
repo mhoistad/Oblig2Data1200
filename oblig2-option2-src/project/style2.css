@@ -7,7 +7,7 @@
 
 body {
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    font-family: lato, sans-serif;
+    font-family: Lato, sans-serif;
     font-size: 14px;
     font-size: 1.2rem;
 }
@@ -15,21 +15,23 @@ body {
 h1 {
     font-family: Montserrat, sans-serif;
     font-size: 4rem;
-    margin-bottom: 2rem;
     
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 h2 {
     font-family: Montserrat, sans-serif;
     font-size: 2.2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 p {
     width: 70ch;
-    word-wrap: break-word;
     line-height: 1.5;
+    margin-bottom:;
 }
-
 
 /* Header */
 
@@ -46,35 +48,48 @@ header {
 header > div {
     color: white;
     background-color: #c5192d;
-    width: 95%;
-    margin: 0 auto 1rem auto;
+    width: 95vw;
+    margin: 0 2.5vw 0 2.5vw;
     box-sizing: border-box;
     padding: 2rem;
-    position: relative;
-    top: 15rem;
+    position: absolute;
+    bottom: -4rem;
     text-align: center;
-
 }
 
 /* Main */
+
+main>article:nth-child(1) {     /*Kopiert fra under, fikser marginen over "our goals" */
+    box-shadow: 0px 0px 1px 0px darkgray;
+    background-color: black;
+    width: 95%;
+    margin: 2rem auto 0rem auto;
+    box-sizing: border-box;
+}
+
+main>article:nth-child(2) { /*Gjør ingen synlig forskjell, men border er ihvertfall 0.1px */
+    border-bottom-style:solid;
+    border-width: 0.1px;
+    border-color: whitesmoke;
+}
 
 main>article {
     box-shadow: 0px 0px 1px 0px darkgray;
     background-color: whitesmoke;
     width: 95%;
-    margin: 2rem auto 1rem auto;
+    margin: 0rem auto 0rem auto;
     box-sizing: border-box;
     padding: 2rem;
     position: relative;
-    top: 6rem;
+    top: 4rem;
 }
+
 
 /* intro-container */
 
 #intro-container {
 
     background-color: #c5192d;
-    margin: 2rem auto 1rem auto;
 }
 
 #intro-container>div>ul>li:nth-child(1):before {
@@ -109,7 +124,7 @@ ul {
 
 footer {
     width: 95%;
-    margin: auto;
+    margin: 2rem auto 0 auto;
     background-color: #c5192d;
     color: white;
     box-sizing: border-box;
