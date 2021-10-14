@@ -149,7 +149,7 @@ a {
     }
     main > article, footer, #intro-container, header > div {
         width: 85vw;
-        margin: 0 15vw 0 15vw;
+        margin: 0 7.5vw 0 7.5vw;
     }
     footer {
         width: 95%;
