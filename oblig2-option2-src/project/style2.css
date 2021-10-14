@@ -210,18 +210,11 @@ a {
     body {
         font-size: 24px;
     }
-    main > article {
+    main > article, footer, #intro-container, header > div {
         width: 70vw;
+        margin: 0 15vw 0 15vw;
     }
     footer {
-        width: 70vw;
+        margin-top: 5rem;
     }
-    #intro-container {
-        width: 70vw;
-    }
-    header>div {
-        width: 70vw;
-        margin: 0 15vw 0 15vw
-    }
-
 }
