@@ -210,13 +210,17 @@ a {
         font-size: 24px;
     }
     main > article {
-        width: 70vh;
+        width: 70vw;
     }
     footer {
-        width: 70vh;
+        width: 70vw;
     }
     #intro-container {
-        width: 70vh;
+        width: 70vw;
+    }
+    header>div {
+        width: 70vw;
+        margin: 0 15vw 0 15vw
     }
 
 }
