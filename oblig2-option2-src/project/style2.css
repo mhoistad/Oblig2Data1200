@@ -120,6 +120,7 @@ img, div>p, footer>p, h1, h2 {
 
 ul {
     list-style-position: inside;
+    list-style-type: none;
 }
 
 footer {
