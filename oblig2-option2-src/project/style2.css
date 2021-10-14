@@ -141,6 +141,16 @@ a {
 
 @media only screen and (min-width: 601px) {
 
+    body {
+        font-size: 16px;
+    }
+    header {
+        height: 65vh;
+    }
+    main > article, footer, #intro-container, header > div {
+        width: 85vw;
+        margin: 0 15vw 0 15vw;
+    }
     footer {
         width: 95%;
         word-wrap: break-word;
@@ -202,8 +212,6 @@ a {
         grid-template-columns: 45% 45%;
         grid-template-rows: 1fr;
         grid-column-gap: 10%;
-        
-        
     }
     
 }
@@ -222,4 +230,5 @@ a {
     footer {
         margin-top: 5rem;
     }
+    
 }
