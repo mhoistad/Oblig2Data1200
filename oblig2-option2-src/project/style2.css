@@ -39,7 +39,7 @@ p {
 header {
     height: 55vh;
     background-image: url("assets/img/studentsbg.png");
-    background-attachment: fixed;
+    background-image: fixed;
     background-position: center top; 
     background-size: cover;
     width: 100%;
@@ -209,7 +209,7 @@ a {
     }
     article {
         display: grid;
-        grid-template-columns: 40% 50%;
+        grid-template-columns: 45% 45%;
         grid-template-rows: 1fr;
         grid-column-gap: 10%;
     }
