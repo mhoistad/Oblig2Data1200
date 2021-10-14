@@ -116,7 +116,7 @@ main>article {
 }
 
 img, div>p, footer>p, h1, h2 {
-    width: 100%;
+    width: 90%;
 }
 
 ul {
