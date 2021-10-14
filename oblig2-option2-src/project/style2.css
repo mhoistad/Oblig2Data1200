@@ -195,12 +195,14 @@ a {
         box-sizing: border-box;
         position: relative;
         top: 6rem;
+        
     }
     article {
         display: grid;
         grid-template-columns: 45% 45%;
         grid-template-rows: 1fr;
         grid-column-gap: 10%;
+        
         
     }
     
@@ -209,6 +211,9 @@ a {
     
     body {
         font-size: 24px;
+    }
+    header {
+        height: 65vh;
     }
     main > article, footer, #intro-container, header > div {
         width: 70vw;
