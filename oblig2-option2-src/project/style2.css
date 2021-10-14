@@ -17,7 +17,7 @@ h1 {
     font-size: 4rem;
     
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 h2 {
@@ -30,7 +30,7 @@ h2 {
 p {
     width: 70ch;
     line-height: 1.5;
-    margin-bottom:;
+    margin-bottom: 2rem;
 }
 
 /* Header */
@@ -70,7 +70,7 @@ main>article:nth-child(1) {     /*Kopiert fra under, fikser marginen over "our g
 main>article:nth-child(2) { /*Gjør ingen synlig forskjell, men border er ihvertfall 0.1px */
     border-bottom-style:solid;
     border-width: 0.1px;
-    border-color: whitesmoke;
+    border-color: darkgrey;
 }
 
 main>article {
@@ -203,18 +203,5 @@ a {
         background-size: cover;
         width: 100%;
         position: relative;
-    }
-    
-    header > div {
-        color: white;
-        background-color: #c5192d;
-        width: 95%;
-        margin: 0 auto 1rem auto;
-        box-sizing: border-box;
-        padding: 2rem;
-        position: relative;
-        top: 15rem;
-        text-align: center;
-    
     }
 }
