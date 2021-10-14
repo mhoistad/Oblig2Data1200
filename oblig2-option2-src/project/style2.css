@@ -203,13 +203,16 @@ a {
         grid-column-gap: 10%;
         
     }
-    header {
-        height: 55vh;
-        background-image: url("assets/img/studentsbg.png");
-        background-image: fixed;
-        background-position: center top; 
-        background-size: cover;
-        width: 100%;
-        position: relative;
+    
+}
+@media only screen and (min-width: 961px) {
+    body {
+        font-size: 24px;
     }
+    header {
+        height: 65vh;
+    }
+
+        
+
 }
