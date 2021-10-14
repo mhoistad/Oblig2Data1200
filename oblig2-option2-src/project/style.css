@@ -1,256 +1,240 @@
-/* Første del, under 600px */
+/*De som har jobbet på denne oppgaven: Christoffer Leegaard s362069, 
+Ingrid Lunde s338231, Haris Maroof s362062, Magnus Høistad s362051*/
+/* General */
 
-/*Chris general  < 600*/
-body { 
+* {
+    margin: 0px;  /*Ikke i oppgave*/
+    padding: 0px; /*Ikke i oppgave */
+}
+
+body {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: Lato, sans-serif;
+    font-size: 14px;
     font-size: 1.2rem;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding-bottom: 65px;
 }
 
-/* Ingrid*/ 
-main {
-    font-family: "Lato", sans-serif;
-    box-shadow: 0px 0px 1px 0px darkgrey;
-    background-color: whitesmoke;
-}
-
-h1 { 
-    
+h1 {
+    font-family: Montserrat, sans-serif;
     font-size: 4rem;
-    font-family: "Montserrat", sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
-h2 { 
+h2 {
+    font-family: Montserrat, sans-serif;
     font-size: 2.2rem;
-    font-family: "Montserrat", sans-serif;
-}
-article {article {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 0px;
-    width: 45%;
-
-}
-.div1 { 
-    
-    grid-area: 1 / 1 / 2 / 2; 
-}
-.div2 { grid-area: 1 / 2 / 2 / 3; }
-.div3 { grid-area: 2 / 1 / 3 / 2; }
-.div4 { grid-area: 2 / 2 / 3 / 3; }
-.div5 { grid-area: 3 / 1 / 4 / 2; }
-.div6 { grid-area: 3 / 2 / 4 / 3; }
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 0px;
-    width: 45%;
-
-}
-.div1 { 
-    
-    grid-area: 1 / 1 / 2 / 2; 
-}
-.div2 { grid-area: 1 / 2 / 2 / 3; }
-.div3 { grid-area: 2 / 1 / 3 / 2; }
-.div4 { grid-area: 2 / 2 / 3 / 3; }
-.div5 { grid-area: 3 / 1 / 4 / 2; }
-.div6 { grid-area: 3 / 2 / 4 / 3; }
-
-h3 { 
-    font-family: "Montserrat", sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 p {
-    font-size: 14px;
-    line-height: 1.5;
-    word-wrap: break-word;
     width: 70ch;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+/* Header */
+
+header {
+    height: 55vh;
+    background-image: url("assets/img/studentsbg.png");
+    background-attachment: fixed;
+    background-position: center top; 
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+header > div {
+    color: white;
+    background-color: #c5192d;
+    width: 95vw;
+    margin: 0 2.5vw 0 2.5vw;
+    box-sizing: border-box;
+    padding: 2rem;
+    position: absolute;
+    bottom: -4rem;
+    text-align: center;
+}
+
+/* Main */
+
+main>article:nth-child(1) {     /*Kopiert fra under, fikser marginen over "our goals" */
+    box-shadow: 0px 0px 1px 0px darkgray;
+    background-color: black;
+    width: 95%;
+    margin: 2rem auto 0rem auto;
+    box-sizing: border-box;
+}
+
+main>article:nth-child(2) { /* Lager border på 0.1px */
+    border-bottom-style:solid;
+    border-width: 0.1px;
+    border-color: darkgrey;
+}
+
+
+main>article {
+    box-shadow: 0px 0px 1px 0px darkgray;
+    background-color: whitesmoke;
+    width: 95%;
+    margin: 0rem auto 0rem auto;
+    box-sizing: border-box;
+    padding: 2rem;
+    position: relative;
+    top: 4rem;
+}
+
+
+/* intro-container */
+
+#intro-container {
+
+    background-color: #c5192d;
+}
+
+#intro-container>div>ul>li:nth-child(1):before {
+    content: "\1F64C";
+    width: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+#intro-container>div>ul>li:nth-child(2):before {
+    content: "\1F3EB";
+    width: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+#intro-container>div>ul>li:nth-child(3):before {
+    content: "\1F4DA";
+    width: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+img, div>p, footer>p, h1, h2 {
+    width: 100%;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+footer {
+    width: 95%;
+    margin: 2rem auto 0 auto;
+    background-color: #c5192d;
+    color: white;
+    box-sizing: border-box;
+    padding: 2rem;
+    position: relative;
+    top: 4rem;
+    text-align: center;
+}
+footer>p {
+    margin-bottom: 0px;
 }
 
 a {
     color: white;
 }
 
-/* blir denne endret når vi endrer skjermstørrelse?*/
-
-ul li{
-    font-size:14px;
-   }
-
-footer {
-    color: white;
-    background-color: #c5192d;
-}
-
-/*Magnus*/
-header {
-    height: 55vh;
-    background-image: url("../project/assets/img/studentsbg.png");
-    background-image: fixed;
-    background-position: center top; 
-    background-size: cover;
-}
-
-header > div {
-    color: white;
-    background-color: #c5192d;
-    margin: auto;
-    width: auto;
-    padding: 1rem;
-    position: relative;
-    top: 4rem;
-}
-/*Haris*/
-#intro-container {
-    background-color: #c5192d;article {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 5px;
-        grid-row-gap: 0px;
-        width: 45%;
-
-    }
-    .div1 { 
-        
-        grid-area: 1 / 1 / 2 / 2; 
-    }
-    .div2 { grid-area: 1 / 2 / 2 / 3; }
-    .div3 { grid-area: 2 / 1 / 3 / 2; }
-    .div4 { grid-area: 2 / 2 / 3 / 3; }
-    .div5 { grid-area: 3 / 1 / 4 / 2; }
-    .div6 { grid-area: 3 / 2 / 4 / 3; }
-    margin: auto;
-    width: auto;
-    padding: 1rem;
-}
-#intro-container > div > ul > li:nth-child(1):before {
-    content: "\1F64C";
-}
-#intro-container > div > ul > li:nth-child(2):before {
-    content: "\1F3EB";
-}
-#intro-container > div > ul > li:nth-child(3):before {
-    content: "\1F4DA";
-}
-
-#intro-container > div > ul {
-    list-style-type: none;
-}
-
-/* Slutt av første del, under 600px */
-
-
-/* Andre del, 600-960px */
 @media only screen and (min-width: 601px) {
 
-    /*chris 
-    •Each article will be displaarticle {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 5px;
-        grid-row-gap: 0px;
-        width: 45%;
-
-    }
-    .div1 { 
-        
-        grid-area: 1 / 1 / 2 / 2; 
-    }
-    .div2 { grid-area: 1 / 2 / 2 / 3; }
-    .div3 { grid-area: 2 / 1 / 3 / 2; }
-    .div4 { grid-area: 2 / 2 / 3 / 3; }
-    .div5 { grid-area: 3 / 1 / 4 / 2; }
-    .div6 { grid-area: 3 / 2 / 4 / 3; }yed in a 2-column layout
-    •Each column will be 45% wide and there will be a 10% gap between the two columns(Figure 3). 
-    HINT: inline elements add a space between them.
-    •Observe that the image is aligned to the top of the container
-    #intro-containerThe red background only covers 50% of the article container(Figure 4). 
-    This is, it spans 50% from the left to the right.
-    */
-    
-    article {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 5px;
-        grid-row-gap: 0px;
-        width: 45%;
-
-    }
-    .div1 { 
-        
-        grid-area: 1 / 1 / 2 / 2; 
-    }
-    .div2 { grid-area: 1 / 2 / 2 / 3; }
-    .div3 { grid-area: 2 / 1 / 3 / 2; }
-    .div4 { grid-area: 2 / 2 / 3 / 3; }
-    .div5 { grid-area: 3 / 1 / 4 / 2; }
-    .div6 { grid-area: 3 / 2 / 4 / 3; }
-    
-    
-
-    p { 
-        font-size: 16px;   
+    body {
+        font-size: 16px;
     }
     header {
         height: 65vh;
+    }
+    main > article, footer, #intro-container, header > div {
+        width: 85vw;
+        margin: 0 7.5vw 0 7.5vw;
+    }
+    footer {
+        width: 85vw;
+        word-wrap: break-word;
+        padding-bottom: 5rem;
+        margin-top: 5rem;
+    }
+    #intro-container > div > p {
+        padding: 2rem;
 
     }
-    header>div, main, footer {
-        width: 85%;
-    }
-}
-/*Slutt av andre del, 600-960px */
-
-
-/* Tredje del, over 960 px */
-@media only screen and (min-width: 961px) {
-    
-    
-    article {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 5px;
-        grid-row-gap: 0px;
-        width: 45%;
+    #intro-container :nth-child(2) {
+        background-color: whitesmoke;
+        width: auto;
 
     }
-    .div1 { 
+    #intro-container :nth-child(1) {
+        width: auto;
+    }
+    #intro-container {
+        padding: 0;
         
-        grid-area: 1 / 1 / 2 / 2; 
     }
-    .div2 { grid-area: 1 / 2 / 2 / 3; }
-    .div3 { grid-area: 2 / 1 / 3 / 2; }
-    .div4 { grid-area: 2 / 2 / 3 / 3; }
-    .div5 { grid-area: 3 / 1 / 4 / 2; }
-    .div6 { grid-area: 3 / 2 / 4 / 3; }
-    
-    article > div > ul {
-        float: left;
-    
+    #intro-container > div > ul {
+        width: 45%;
+        margin-right: 5%;
+        list-style-type: none;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        
+    }
+    #intro-container > div > h2, p {
+        width: 45%;
+        
+    }
+    #intro-container > div > p {
+        background-color: #c5192d !important;
+    }
+    #intro-container > div > h2 {
+        padding-left: 2rem;
+        padding-top: 2rem;
+        
     }
     p {
-        font-size: 24px;
-        width: 100%;
-        word-wrap: break-word;
-
-
+        float: left;
     }
-    header {
-        height: 65vh;
-
+    main>article {
+        box-shadow: 0px 0px 1px 0px darkgray;
+        background-color: whitesmoke;
+        width: 85vw;
+        margin: 0 auto 0 auto;
+        box-sizing: border-box;
+        position: relative;
+        top: 6rem;
+        
     }
-    header>div, main, footer {
-        width: 70%;
-
+    article {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 1fr;
+        grid-column-gap: 10%;
     }
     
 }
-
-/*Slutt av tredje del, over 960 px */
+@media only screen and (min-width: 961px) {
+    
+    body {
+        font-size: 24px;
+    }
+    header {
+        height: 65vh;
+    }
+    main > article, footer, #intro-container, header > div {
+        width: 70vw;
+        margin: 0 15vw 0 15vw;
+    }
+    footer {
+        margin-top: 5rem;
+    }
+    
+}
