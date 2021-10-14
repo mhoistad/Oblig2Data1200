@@ -141,6 +141,12 @@ a {
 
 @media only screen and (min-width: 601px) {
 
+
+    footer, footer>p {
+    width: 95%;
+        word-wrap: break-word;
+        padding-bottom: 7rem;
+    }
     #intro-container > div > p {
         padding: 2rem;
 
